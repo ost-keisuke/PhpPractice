@@ -19,3 +19,4 @@
     sort($low);
     rsort($high);
     echo $start[0]. " ". $end[$num-1]. " ". max($high). " ". min($low). "\n";
+?>
