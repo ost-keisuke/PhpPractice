@@ -10,6 +10,8 @@
     for($i=0;$i<$num;$i++){
         $odr[$i] = explode(" ", $arr[$i+1]);
     }
+    $var1 = 0;
+    $var2 = 0;
     for($j=0;$j<$num;$j++){
         if($odr[$j][0] === "SET"){
             ${"var".$odr[$j][1]} = (int)$odr[$j][2];
@@ -20,3 +22,4 @@
         }
     }
     echo $var1. " ". $var2. "\n";
+?>

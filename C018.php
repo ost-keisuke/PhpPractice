@@ -28,3 +28,4 @@
     }else{
         echo min($make);
     }
+?>
